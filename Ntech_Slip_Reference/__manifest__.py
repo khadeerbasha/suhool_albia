@@ -6,7 +6,7 @@
     'version': '14.0',
     'category': 'Stock',
     'description': """Added Slip Reference in Warehouse Operations""",
-    'depends': ['stock','account'],
+    'depends': ['stock','account','purchase','sale','sale_stock'],
     'data': ['views/slip_ref_views.xml'],
     'installable': True,
     'auto_install': True,
